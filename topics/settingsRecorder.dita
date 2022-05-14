@@ -7,10 +7,10 @@
     <conbody>
         <p>Generally, you should keep the default settings unless you know why you need to change it.</p>
         <ul>
-            <li>Recording Path</li>
+            <li>Recording Path: set the file path for your recording</li>
             <li>Generate File Name without Space</li>
-            <li>Recording Quality</li>
-            <li>Recording Format</li>
+            <li>Recording Quality: set the quality for your recording</li>
+            <li>Recording Format: set the format to save your recording</li>
             <li>Custom Muxer Settings</li>
             <li>Enable Replay Buffer</li>
         </ul>
