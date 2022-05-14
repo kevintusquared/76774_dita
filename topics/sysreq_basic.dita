@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE reference PUBLIC "-//OASIS//DTD DITA Reference//EN" "reference.dtd">
+<reference id="sysreq_basic">
+    <title>Basic Requirements</title>
+    <shortdesc>OBS Studio requires the following hardware and operating systems at minimum to start. 
+    However, having a compatible system does not mean it is capable of streaming, recording, or performing
+    all of the functions provided in OBS Studio</shortdesc>
+    <refbody>
+        <table frame="all" id="table_xj3_llq_ldb">
+            <tgroup cols="3">
+                <colspec colname="c1" colnum="1" colwidth="1*"/>
+                <colspec colname="c2" colnum="2" colwidth="1*"/>
+                <colspec colname="c3" colnum="3" colwidth="1*"/>
+                <thead>
+                    <row>
+                        <entry>OS</entry>
+                        <entry>GPU Requirement</entry>
+                        <entry>OS Requirment</entry>
+                    </row>
+                </thead>
+                <tbody>
+                    <row>
+                        <entry>Windows</entry>
+                        <entry>DirectX 10.1 compatible GPU</entry>
+                        <entry>Windows 8.1 or later</entry>
+                    </row>
+                    <row>
+                        <entry>macOS</entry>
+                        <entry>OpenGL 3.3-compatible GPU</entry>
+                        <entry>macOS "High Sierra" (10.13) or later</entry>
+                    </row>
+                    <row>
+                        <entry>Linux/Unix</entry>
+                        <entry>OpenGL 3.3-compatible GPU</entry>
+                        <entry>X window system or Wayland</entry>
+                    </row>
+                </tbody>
+            </tgroup>
+        </table>
+    </refbody>
+
+    <related-links>
+        <link href="../topics/sysreq_enc.dita" format="dita" type="concept"/>
+    </related-links>
+</reference>

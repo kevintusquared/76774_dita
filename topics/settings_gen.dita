@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="settings_gen">
+    <title>General Settings</title>
+    <conbody>
+        <ul>
+            <li>Change theme (light/dark)</li>
+            <li>Enable/disable system tray icon (required for hiding to tray)</li>
+            <li>Show confirmation for starting/stopping streams</li>
+            <li>Enable/Disable Source snapping</li>
+            <li>Enable/Disable automatic recording when streaming</li>
+        </ul>
+        <image href="../images/settings_gen.png" placement="break">
+            <alt>OBS General Settings</alt>
+        </image>
+    </conbody>
+</concept>

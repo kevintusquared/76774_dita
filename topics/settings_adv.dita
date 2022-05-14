@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="settings_adv">
+    <title>Advanced Settings</title>
+    <conbody>
+        <note>Do not try to change any advanced settings unless you know what you are doing!</note>
+
+        <p>Most of these settings should not be changed unless you understand exactly why you need to change them. 
+        However, some settings can be useful for new streamers, such as:</p>
+        <ul>
+            <li>Change the Filename Formatting</li>
+            <li>Activate Stream Delay</li>
+            <li>Configure Automatic Reconnect</li>
+        </ul>
+        <image href="../images/settings_adv.png" placement="break">
+            <alt>OBS Advanced Settings</alt>
+        </image>
+    </conbody>
+</concept>

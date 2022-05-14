@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title>OBS Help</title>
+
+    <topicref href="topics/obs.dita"/>
+    <topicref href="topics/install.dita"/>
+
+    <topicref href="topics/quickstart.dita"/>
+    <topicref href="topics/sysreq_basic.dita">
+        <topicref href="topics/sysreq_enc.dita"/>
+    </topicref>
+
+    <topicref href="topics/video_sources.dita"/>
+
+    <topicref href="topics/settings.dita">
+        <topicref href="topics/settings_gen.dita"/>
+        <topicref href="topics/settings_stream.dita"/>
+        <topicref href="topics/settingsRecorder.dita" audience="streamer"/>
+        <topicref href="topics/settingsStreamer.dita" audience="recorder"/>
+        <topicref href="topics/settings_audio.dita"/>
+        <topicref href="topics/settings_video.dita"/>
+        <topicref href="topics/settings_hotkeys.dita"/>
+        <topicref href="topics/settings_adv.dita"/>
+    </topicref>
+
+</map>

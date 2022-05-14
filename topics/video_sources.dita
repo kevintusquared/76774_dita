@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="video_sources">
+    <title>Video Sources</title>
+    <shortdesc>There are many video sources to choose from to display in OBS.</shortdesc>
+    <conbody>
+        <ul>
+            <li>Browser: adds your browser as a source</li>
+            <li>Color Source: adds a solid color as a source</li>
+            <li>Display Capture: adds the entire monitor as a source</li>
+            <li>Game Capture: adds a specific game as a source</li>
+            <li>Image: adds an image as a source</li>
+            <li>Image Slide Show: adds a set of images as a source</li>
+            <li>Media Source: adds a supported media type as a source</li>
+            <li>Scene: adds an OBS scene as a source</li>
+            <li>Text: adds text as a source</li>
+            <li>VLC Video Source: adds the VLC media player as a source</li>
+            <li>Video Capture Device: adds the output from a video capture device as a source</li>
+            <li>Window Capture: adds any window as a source</li>
+        </ul>
+    </conbody>
+</concept>

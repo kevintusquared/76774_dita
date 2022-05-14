@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="settings_hotkeys">
+    <title>Hotkey Settings</title>
+    <shortdesc>Overall, most settings will be fairly self-explanatory.</shortdesc>
+    <conbody>
+        <p>Here you can set hotkeys that do a variety of things. Some examples:</p>
+        <ul>
+            <li>Start/Stop Streaming/Recording</li>
+            <li>Hide/Show Sources</li>
+            <li>Switch to a specific Scene</li>
+            <li>Push-to-talk/Push-to-mute</li>
+            <li>Capture active window for Game Capture</li>
+            <li>Start/Stop/Save Replay Buffer</li>
+        </ul>
+
+        <p>Keyboard keys are supported. To use joysticks as hotkeys on Linux and Windows, 
+        you can use antimicro to map the joystick keys to common keyboard keys and then use them in OBS.</p>
+        
+        <image href="../images/settings_hotkeys.png" placement="break">
+            <alt>OBS Audio Settings</alt>
+        </image>
+    </conbody>
+</concept>

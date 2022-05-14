@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<!--  This file is part of the DITA Open Toolkit project. See the accompanying LICENSE file for applicable license.  -->
+<!-- (C) Copyright IBM Corporation 2001, 2005. All Rights Reserved. -->
+<task id="install" xml:lang="en-us">
+  <title>OBS Studio Installation</title>
+  <shortdesc>Follow the steps to install OBS Studio on your system</shortdesc>
+  <taskbody>
+    <steps>
+      <stepsection>To install OBS Studio:</stepsection>
+      <step>
+        <cmd>Go to <xref href="https://obsproject.com/download" format="html" scope="external">
+        https://obsproject.com/download</xref></cmd>
+        <info>This will direct you to the page to download the OBS Studio installer.</info>
+
+        <info>OBS Studio can be downloaded for free</info>
+
+        <info><image href="../images/obs_homepage.PNG" placement="break">
+            <alt>OBS Home Page</alt>
+        </image></info>
+      </step>
+
+      <step>
+        <cmd>Run the OBS Studio installer</cmd>
+        <info>This will begin the installation process for OBS Studio</info>
+        
+        <info><image href="../images/obs_installer.PNG" placement="break">
+            <alt>OBS Installer</alt>
+        </image></info>
+      </step>
+
+      <step>
+        <cmd>Follow the prompts from the OBS Studio installer</cmd>
+        <info>The installer will prompt you to agree to the OBS Studio license terms</info>
+        <info><image href="../images/obs_license.PNG" placement="break">
+            <alt>OBS License Terms prompt</alt>
+        </image></info>
+
+        <info>The installer will prompt you for the installation directory</info>
+        <info><image href="../images/obs_dir.PNG" placement="break">
+            <alt>OBS Installation Directory prompt</alt>
+        </image></info>
+        
+      </step>
+      <step>
+        <cmd>Launch OBS Studio</cmd>
+        <info>Once the installation is finished, you will be prompted to close the installer.
+        Once you click "Finish", OBS Studio will launch for the first time</info>
+        <info><image href="../images/obs_launch.PNG" placement="break">
+            <alt>OBS Installation Finished</alt>
+        </image></info>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link href="../topics/quickstart.dita" format="dita" type="task"/>
+  </related-links>
+</task>

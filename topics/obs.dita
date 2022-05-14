@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="obs">
+    <title>What is OBS Studio?</title>
+    <conbody>
+        <p>OBS Studio is a free and open source software for video recording and live streaming.</p>
+
+        <p>OBS Studio can extend its functionality using native plugins and scripts or 
+        you can write your own for your own needs.</p>
+    </conbody>
+</concept>

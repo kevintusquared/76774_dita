@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
+<!--  This file is part of the DITA Open Toolkit project. See the accompanying LICENSE file for applicable license.  -->
+<!-- (C) Copyright IBM Corporation 2001, 2005. All Rights Reserved. -->
+<task id="quickstart" xml:lang="en-us">
+  <title>OBS Studio Quickstart</title>
+  <shortdesc>If you are a new user or just want to setup OBS Studio quickly, you can use the quickstart guide.</shortdesc>
+  <taskbody>
+    <steps>
+      <stepsection>To setup OBS Studio:</stepsection>
+      <step>
+        <cmd>Run the auto-configuration wizard.</cmd>
+        <info>After installing and launching OBS Studio for the first time, the <term>Auto-Configuration Wizard</term> 
+        will open automatically.</info>
+
+        <info><image href="../images/obs_auto.PNG" placement="break">
+            <alt>Auto-Configuration Wizard</alt>
+        </image></info>
+        
+        <info>The <term>Auto-Configuration Wizard</term> will automatically test your system 
+        and adjust your initial settings that your system can handle.</info>
+      </step>
+      <step>
+        <cmd>Set up your audio devices.</cmd>
+        <info>OBS Studio uses your default audio input (microphone) and output (desktop audio) sources.
+        You can see what audio source is captured in the <term>Audio Mixer</term> box. </info>
+
+         <info><image href="../images/obs_audio.png" placement="break">
+            <alt>OBS Audio Mixer</alt>
+        </image></info>
+
+        <info>You can also manually change the audio device by going to the audio setting and selecting the desired device.
+        More info on the audio settings is given in the related topics.</info>
+      </step>
+      <step>
+        <cmd>Add your sources for video.</cmd>
+        <info>OBS Studio does not connect a video source by default. You will need to select a video source. 
+        You can do this by selecting "Add Source" button in the <term>Source</term> box.  </info>
+
+        <info><image href="../images/obs_source.png" placement="break">
+            <alt>OBS Source</alt>
+        </image></info>
+
+        <info> You can take a look at the related topics for more information on video sources.</info>
+      </step>
+      <step>
+        <cmd>Hit Start Recording or Start Streaming!</cmd>   
+        <info> You've setup your audio and video sources and are now ready to start recording or streaming!</info>
+      </step>
+    </steps>
+  </taskbody>
+  <related-links>
+    <link href="../topics/install.dita" format="dita" type="concept"/>
+    <link href="../topics/settings_audio.dita" format="dita" type="concept"/>
+    <link href="../topics/video_sources.dita" format="dita" type="concept"/>
+  </related-links>
+</task>

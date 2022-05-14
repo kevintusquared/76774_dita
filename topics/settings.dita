@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="settings">
+    <title>Settings</title>
+    <shortdesc>There are seven main settings in OBS Studio that you can change
+    in order to fine tune your workflow and experience.</shortdesc>
+    <conbody>
+        <p>The following settings are generally self-explanatory in what they do.</p>
+        <ul>
+            <li>General: Settings that apply to OBS as a whole</li>
+            <li>Stream: Settings for streaming</li>
+            <li>Output: Settings for streaming/recording output</li>
+            <li>Audio: Settings for audio devices</li>
+            <li>Video: Settings for video devices</li>
+            <li>Hotkeys: Settings to set hotkeys</li>
+            <li>Advanced: Advanced settings</li>
+        </ul>
+        <image href="../images/obs_settings.png" placement="break">
+            <alt>OBS Settings</alt>
+        </image>
+
+        <p>Check the related topics for a full description of what each main setting does and
+        the sub-settings that they contain.</p>
+    </conbody>
+
+    <related-links>
+        <link href="settings_gen.dita#settings_gen"/>
+        <link href="settings_stream.dita#settings_stream"/>
+        <link href="settings_output.dita#settings_output"/>
+        <link href="settings_audio.dita#settings_audio"/>
+        <link href="settings_video.dita#settings_video"/>
+        <link href="settings_hotkeys.dita#settings_hotkeys"/>
+        <link href="settings_adv.dita#settings_adv"/>
+    </related-links>
+</concept>

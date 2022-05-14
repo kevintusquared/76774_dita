@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
+<concept id="sysreq_enc">
+    <title>Hardware Encoders</title>
+    <conbody>
+        <p>In addition to the basic system requirements, OBS Studio recommends that you use hardware encoders.
+        Modern hardware encoders allow for more efficient processing of video elements with minimal effect 
+        to the overall system.</p>
+
+        <p>Older hardware encoders may also be used for minimal effect to the overall system at the cost of 
+        resolution at the same bitrates.</p>
+
+        <p>Consumer-level hardware encoders are built into the following GPU types:</p>
+
+        <ul>
+            <li>NVIDIA NVENC</li>
+            <li>Intel Quick Sync Video (QSV)</li>
+            <li>AMD Advanced Media Framework (AMF)</li>
+            <li>Apple VideoToolbox (VT)</li>
+        </ul>
+    </conbody>
+</concept>
