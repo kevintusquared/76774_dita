@@ -2,14 +2,30 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="settings_audio">
     <title>Audio Settings</title>
-    <shortdesc>Overall, most settings will be fairly self-explanatory.</shortdesc>
+    <shortdesc>These settings can be used to adjust your audio input and output.</shortdesc>
     <conbody>
-        <p>The following settings are available to fine tune your output.</p>
         <ul>
-            <li>Change the Sampling Rate</li>
-            <li>Select up to two Desktop Audio Devices</li>
-            <li>Select up to three Microphone/Auxiliary Devices</li>
-            <li>Enable Push-to-mute or Push-to-talk for each device (keys configured in the Hotkeys section)</li>
+            <li>Sampling Rate<ul>
+                <li>Sample Rate</li>
+                <li>Channels</li>
+            </ul></li>
+            <li>Devices<ul>
+                <li>Desktop Audio</li>
+                <li>Desktop Audio 2</li>
+                <li>Mic/Auxiliary Audio</li>
+                <li>Mic/Auxiliary Audio 2</li>
+                <li>Mic/Auxiliary Audio 3</li>
+                <li>Mic/Auxiliary Audio 4</li>
+            </ul></li>
+            <li>Meters<ul>
+                <li>Decay Rate</li>
+                <li>Peak Meter Type</li>
+            </ul></li>
+            <li>Advanced<ul>
+                <li>Monitoring Device</li>
+                <li>Disable Windows audio ducking</li>
+            </ul></li>
+            <li>Hotkeys</li>
         </ul>
         <image href="../images/settings_audio.png" placement="break">
             <alt>OBS Audio Settings</alt>

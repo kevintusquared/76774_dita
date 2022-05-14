@@ -2,25 +2,18 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="settings_output" audience="streamer">
     <title>Output Settings</title>
-    <shortdesc>Overall, most settings will be fairly self-explanatory.</shortdesc>
+    <shortdesc>This topic covers Simple output mode.
+    You can set the output quality of your stream using these settings.</shortdesc>
     <conbody>
-        <p> This section covers Simple output mode. 
-        Advanced output mode gives you further options 
-        to configure your Stream and Recording independently if you want to. 
-        We will not be covering advanced options in this topic. 
-        Generally, unless you know why you need to change it, the default options are recommended.</p>
+        <p>Generally, you should keep the default settings unless you know why you need to change it.</p>
         <ul>
-            <li>Set your Video Bitrate. 
-            This changes according to your upload speed and the limitations of the service you use 
-            (for example, 6000kbps max for Twitch.tv)</li>
-            <li>Set your Audio Bitrate. Around 160kbps for streaming, or lower if you have a low upload speed</li>
+            <li>Video Bitrate: set the bitrate for your streaming video quality</li>
+            <li>Encoder: set the encoder to use</li>
+            <li>Audio Bitrate: set the bitrate for your streaming audio quality</li>
+            <li>Enable Advanced Encoder Settings</li>
         </ul>
         <image href="../images/settings_output.png" placement="break">
             <alt>OBS Stream Settings</alt>
         </image>
     </conbody>
-
-    <related-links>
-        <link href="settings_adv.dita#settings_adv"/>
-    </related-links>
 </concept>

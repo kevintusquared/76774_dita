@@ -6,15 +6,36 @@
     in order to fine tune your workflow and experience.</shortdesc>
     <conbody>
         <p>The following settings are generally self-explanatory in what they do.</p>
-        <ul>
-            <li>General: Settings that apply to OBS as a whole</li>
-            <li>Stream: Settings for streaming</li>
-            <li>Output: Settings for streaming/recording output</li>
-            <li>Audio: Settings for audio devices</li>
-            <li>Video: Settings for video devices</li>
-            <li>Hotkeys: Settings to set hotkeys</li>
-            <li>Advanced: Advanced settings</li>
-        </ul>
+        <dl>
+            <dlentry>
+            <dt>General</dt>
+            <dd>Settings that apply to OBS as a whole</dd>
+            </dlentry>
+            <dlentry>
+            <dt>Stream</dt>
+            <dd>Settings for streaming</dd>
+            </dlentry>
+            <dlentry>
+            <dt>Output</dt>
+            <dd>Settings for streaming/recording output</dd>
+            </dlentry>
+            <dlentry>
+            <dt>Audio</dt>
+            <dd>Settings for audio devices</dd>
+            </dlentry>
+            <dlentry>
+            <dt>Video</dt>
+            <dd>Settings for video devices</dd>
+            </dlentry>
+            <dlentry>
+            <dt>Hotkeys</dt>
+            <dd>Settings to set hotkeys</dd>
+            </dlentry>
+            <dlentry>
+            <dt>Advanced</dt>
+            <dd>Advanced settings</dd>
+            </dlentry>  
+        </dl>
         <image href="../images/obs_settings.png" placement="break">
             <alt>OBS Settings</alt>
         </image>

@@ -2,15 +2,12 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="settings_stream">
     <title>Stream Settings</title>
-    <shortdesc>Overall, most settings will be fairly self-explanatory.</shortdesc>
+    <shortdesc>This set of settings allows you to connect your streaming services.</shortdesc>
     <conbody>
-        <p>The following settings are available to fine tune your output.</p>
         <ul>
-            <li>Select one of the included Services 
-            (Check "Show all services" to see the full list in the dropdown) 
-            or set Custom Streaming Server</li>
-            <li>Enable/disable system tray icon (required for hiding to tray)</li>
-            <li>Enter your Stream Key (this can generally be found using the 'Get Stream Key' button)</li>
+            <li>Service: set the streaming service you are using</li>
+            <li>Server: set the server for the streaming service you are using</li>
+            <li>Stream Key: set the personal stream key for your account</li>
         </ul>
         <image href="../images/settings_stream.png" placement="break">
             <alt>OBS Stream Settings</alt>

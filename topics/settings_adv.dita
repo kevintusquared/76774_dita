@@ -5,12 +5,13 @@
     <conbody>
         <note>Do not try to change any advanced settings unless you know what you are doing!</note>
 
-        <p>Most of these settings should not be changed unless you understand exactly why you need to change them. 
-        However, some settings can be useful for new streamers, such as:</p>
+        <p>Most of these settings should not be changed unless you understand exactly what the settings is
+        and why you need to change it. 
+        However, there are some settings that may be useful for anybody to use:</p>
         <ul>
-            <li>Change the Filename Formatting</li>
-            <li>Activate Stream Delay</li>
-            <li>Configure Automatic Reconnect</li>
+            <li>Change the Filename Formatting: set how a file is named</li>
+            <li>Activate Stream Delay: set a delay for your stream</li>
+            <li>Configure Automatic Reconnect: set an automatic reconnect to your stream</li>
         </ul>
         <image href="../images/settings_adv.png" placement="break">
             <alt>OBS Advanced Settings</alt>

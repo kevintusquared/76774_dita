@@ -2,26 +2,20 @@
 <!DOCTYPE concept PUBLIC "-//OASIS//DTD DITA Concept//EN" "concept.dtd">
 <concept id="settings_output" audience="recorder">
     <title>Output Settings</title>
-    <shortdesc>Overall, most settings will be fairly self-explanatory.</shortdesc>
+    <shortdesc>This topic covers Simple output mode.
+    You can set the output quality of your recording using these settings.</shortdesc>
     <conbody>
-        <p> This section covers Simple output mode. 
-        Advanced output mode gives you further options 
-        to configure your Stream and Recording independently if you want to. 
-        We will not be covering advanced options in this topic. 
-        Generally, unless you know why you need to change it, the default options are recommended.</p>
+        <p>Generally, you should keep the default settings unless you know why you need to change it.</p>
         <ul>
-            <li>Set your Recording Path.</li>
-            <li>Record using a preset (Same as stream, High Quality, Indistinguishable Quality, and Lossless) 
-            and a different Encoder (if available)</li>
-            <li>Select a Hardware Encoder if available 
-            (only if you use a different preset than "same as stream" and if a Hardware Encoder is available)</li>
+            <li>Recording Path</li>
+            <li>Generate File Name without Space</li>
+            <li>Recording Quality</li>
+            <li>Recording Format</li>
+            <li>Custom Muxer Settings</li>
+            <li>Enable Replay Buffer</li>
         </ul>
         <image href="../images/settings_output.png" placement="break">
             <alt>OBS Stream Settings</alt>
         </image>
     </conbody>
-
-    <related-links>
-        <link href="settings_adv.dita#settings_adv"/>
-    </related-links>
 </concept>

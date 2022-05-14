@@ -4,32 +4,15 @@
     <title>Video Settings</title>
     <shortdesc>Overall, most settings will be fairly self-explanatory.</shortdesc>
     <conbody>
-        <p>The following settings are available to fine tune your output.</p>
-
         <p>Base (Canvas) Resolution</p>
         <ul>
-            <li>This is the amount of space you have to fit your sources. 
-            You usually want this to match your monitor display resolution, 
-            or if you are playing games, the game resolution. Default is your primary monitor.</li>
-        </ul>
-
-        <p>Output (Scaled) Resolution should be the Stream Output Resolution (720p, 480p, etc)</p>
-        <ul>
-            <li>This is the resolution that the stream/recording will output at, 
-            using the selected downscale filter.</li>
-        </ul>
-
-        <p>Common FPS Value should match your desired output FPS (30/60 for example)</p>
-        <ul>
-            <li>Note that 60-fps streaming can be very taxing on your system compared to 30-fps. 
-            Test ahead of time and ensure your system has enough resources available.</li>
+            <li>Base (Canvas) Resolution: set your input resolution</li>
+            <li>Output (Scaled) Resolution: set your output resolution</li>
+            <li>Downscale Filter: set the downscale filter</li>
+            <li>Common FPS Values: set the FPS of your output</li>
         </ul>
         <image href="../images/settings_video.png" placement="break">
             <alt>OBS Video Settings</alt>
         </image>
     </conbody>
-
-    <related-links>
-        <link href="settings_hotkeys.dita#settings_hotkeys"/>
-    </related-links>
 </concept>

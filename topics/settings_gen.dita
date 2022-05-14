@@ -3,12 +3,63 @@
 <concept id="settings_gen">
     <title>General Settings</title>
     <conbody>
+        <p>General Settings are settings that typically apply to the whole OBS Studio application.
+        These settings are typically self-explanatory.</p>
         <ul>
-            <li>Change theme (light/dark)</li>
-            <li>Enable/disable system tray icon (required for hiding to tray)</li>
-            <li>Show confirmation for starting/stopping streams</li>
-            <li>Enable/Disable Source snapping</li>
-            <li>Enable/Disable automatic recording when streaming</li>
+            <li>General<ul>
+                <li>Language</li>
+                <li>Theme</li>
+                <li>Automatically check for updates on startup</li>
+                <li>Open stats dialogue on startup</li>
+                <li>Hide OBS windows from screen capture</li>
+            </ul></li>
+            <li>Output<ul>
+                <li>Show confirmation dialogue when starting streams</li>
+                <li>Show confirmation dialogue when stopping streams</li>
+                <li>Show confirmation dialogue when stopping recording</li>
+                <li>Automatically record while streaming</li>
+                <li>Keep recording when streaming stops</li>
+                <li>Automatically start replay buffer when streaming</li>
+                <li>Keep replay buffer active when stream stops</li>
+            </ul></li>
+            <li>Source Alignment Snapping<ul>
+                <li>Enable</li>
+                <li>Snap sensitivity</li>
+                <li>Snap sources to edge of screen</li>
+                <li>Snap sources to other sources</li>
+                <li>Snap sources to horizontal and vertical center</li>
+            </ul></li>
+            <li>Projectors<ul>
+                <li>Hide cursor over projectors</li>
+                <li>Make projectors always on top</li>
+                <li>Save projectors on exit</li>
+                <li>Limit one fullscreen projector per screen</li>
+            </ul></li>
+            <li>System Tray<ul>
+                <li>Enable</li>
+                <li>Minimize to system tray when started</li>
+                <li>Always minimize to system tray instead of task bar</li>
+            </ul></li>
+            <li>Preview<ul>
+                <li>Hide overflow</li>
+                <li>Overflow always visible</li>
+                <li>Show overflow even when source is invisible</li>
+                <li>Draw safe areas</li>
+            </ul></li>
+            <li>Importers<ul>
+                <li>Search known locations for scene collections when importing</li>
+            </ul></li>
+            <li>Studio Mode<ul>
+                <li>Transition to scene when double clicked</li>
+                <li>Enable portrait/vertical layout</li>
+                <li>Show preview/program labels</li>
+            </ul></li>
+            <li>Multiview<ul>
+                <li>Click to switch between scenes</li>
+                <li>Show scene names</li>
+                <li>Draw safe areas</li>
+                <li>Multiview layout</li>
+            </ul></li>
         </ul>
         <image href="../images/settings_gen.png" placement="break">
             <alt>OBS General Settings</alt>
